@@ -28,7 +28,7 @@ spec:
         run: play-frontend
     spec:
       containers:
-      - image: play-frontend:v1
+      - image: andreaspersson85/play-frontend:v1
         imagePullPolicy: Never
         name: play-frontend
         ports:
